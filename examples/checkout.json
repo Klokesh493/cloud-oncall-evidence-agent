@@ -1,0 +1,9 @@
+{
+  "service": "checkout",
+  "now_minute": 360,
+  "observations": [
+    {"kind": "slo", "id": "slo:checkout:359", "service": "checkout", "observed_minute": 359, "status": "page"},
+    {"kind": "queue", "id": "cloudwatch:checkout-dlq", "service": "checkout", "observed_minute": 356, "status": "alarm"},
+    {"kind": "change", "id": "deploy:release-5", "service": "checkout", "observed_minute": 351, "status": "recent"}
+  ]
+}
